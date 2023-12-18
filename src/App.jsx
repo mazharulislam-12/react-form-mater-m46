@@ -1,6 +1,7 @@
 
 import './App.css'
-import SimpleFrom from './components/SimpleForm/SimpleFrom'
+import StateFullFrom from './components/StateFullForm/StateFullFrom'
+// import SimpleFrom from './components/SimpleForm/SimpleFrom'
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
      
       <h2>Simple Form for React</h2>
-      <SimpleFrom></SimpleFrom>
+      {/* <SimpleFrom></SimpleFrom> */}
+      <StateFullFrom></StateFullFrom>
       
     </>
   )
